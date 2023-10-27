@@ -13,29 +13,33 @@ body {
   flex-direction: row;
   justify-content: space-between;
 
-  .details {
-    display: flex;
-    flex-direction: column;
-    text-align: right;
 
-
-    .name {
-      font-size: 18pt;
-    }
-
-    .contact {
-      font-size: 13pt;
-      color: rgb(136, 136, 136);
-    }
-  }
-
-  >img {
-    border-radius: 50%;
-    width: 78px;
-    /* border: 1px solid red; */
-  }
 
   margin-bottom: 20px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+
+
+
+}
+
+.name {
+  font-size: 18pt;
+}
+
+.contact {
+  font-size: 13pt;
+  color: rgb(136, 136, 136);
+}
+
+img {
+  border-radius: 50%;
+  width: 78px;
+  /* border: 1px solid red; */
 }
 
 .intro {
@@ -96,33 +100,20 @@ li {
     margin-bottom: 10px;
   }
 
-  .skillsCard {
-    padding: 1rem;
-    border: 1px solid rgb(180, 180, 180);
-    margin-bottom: 20px;
 
-    .skillCat {
-      font-size: 15pt;
-    }
+}
 
-    .skillSet {
-      .tag-list {
-        list-style: none;
-        padding: 0rem;
-        font-family: 'Prompt', sans-serif;
-      }
+.skillsCard {
+  padding: 1rem;
+  border: 1px solid rgb(180, 180, 180);
+  margin-bottom: 20px;
 
-      .tag-list>li {
-        display: inline;
-        padding: 0.3rem 0.5rem;
-        font-size: 0.8rem;
-        border-radius: 0.2rem;
-        background-color: lightgrey;
-        line-height: 2.6;
-      }
-    }
-
+  .skillCat {
+    font-size: 15pt;
   }
+
+
+
 }
 
 
@@ -132,44 +123,50 @@ li {
     margin-bottom: 10px;
   }
 
-  .edCard {
-    padding: 1rem;
-    border: 1px solid rgb(180, 180, 180);
-    margin-bottom: 20px;
+  
+}
 
-    .edCat {
-      font-size: 15pt;
-    }
+.edCard {
+  padding: 1rem;
+  border: 1px solid rgb(180, 180, 180);
+  margin-bottom: 20px;
 
-    .edSub {
-      font-weight: 900;
-    }
+  .edCat {
+    font-size: 15pt;
+  }
 
-    .edDate {
-      font-size: 10pt;
-      margin-bottom: 10px;
-    }
+  .edSub {
+    font-weight: 900;
+  }
 
-    .edHiTitle {
-      font-size: 13pt;
-      margin-bottom: 5px;
-    }
+  .edDate {
+    font-size: 10pt;
+    margin-bottom: 10px;
+  }
 
-    .edHighlights {
+  .edHiTitle {
+    font-size: 13pt;
+    margin-bottom: 5px;
+  }
 
-      visibility: hidden;
-      height: 0;
+  
+}
 
-      .highlight {
-        border-top: 1px solid gray;
-        margin-bottom: 10px;
+.edHighlights {
 
-        >div {
-          margin-bottom: 5px;
-        }
-      }
+  visibility: hidden;
+  height: 0;
 
-    }
+  
+
+}
+
+.highlight {
+  border-top: 1px solid gray;
+  margin-bottom: 10px;
+
+  > div {
+    margin-bottom: 5px;
   }
 }
 
@@ -179,8 +176,10 @@ li {
   justify-content: flex-end;
   column-gap: 10px;
 
-  >a {
-    color: black;
-    text-decoration: none;
-  }
+  
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }
