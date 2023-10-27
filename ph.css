@@ -108,7 +108,7 @@ li {
   border: 1px solid rgb(180, 180, 180);
   margin-bottom: 20px;
 
-  & .skillCat {
+  &.skillCat {
     font-size: 15pt;
   }
 
