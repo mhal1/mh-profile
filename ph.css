@@ -1,187 +1,186 @@
 body {
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 860px;
-      padding-top: 1rem;
-      padding-left: 1rem;
-      padding-right: 1rem;
-      font-family: 'Gentium Plus', serif;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 860px;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: 'Gentium Plus', serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+
+
+    .name {
+      font-size: 18pt;
     }
 
-    .header {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
+    .contact {
+      font-size: 13pt;
+      color: rgb(136, 136, 136);
+    }
+  }
 
-      .details {
-        display: flex;
-        flex-direction: column;
-        text-align: right;
+  >img {
+    border-radius: 50%;
+    width: 78px;
+    /* border: 1px solid red; */
+  }
 
+  margin-bottom: 20px;
+}
 
-        .name {
-          font-size: 18pt;
-        }
+.intro {
+  text-align: justify;
+  margin-bottom: 20px;
+}
 
-        .contact {
-          font-size: 13pt;
-          color: rgb(136, 136, 136);
-        }
+.experience {}
+
+.expTitle {
+  font-size: 18pt;
+  margin-bottom: 10px;
+}
+
+.expCard {
+  padding: 1rem;
+  border: 1px solid rgb(180, 180, 180);
+  -webkit-border: 1px solid rgb(180, 180, 180);
+  margin-bottom: 20px;
+
+  .companyName {
+    font-size: 15pt;
+  }
+
+  .subheading {
+    font-size: 10pt;
+  }
+
+  .briefIntro {
+    text-align: justify;
+    font-weight: bold;
+  }
+
+  .pr {
+    text-align: justify;
+  }
+}
+
+.tag-list {
+  list-style: none;
+  padding: 0rem;
+  font-family: 'Prompt', sans-serif;
+}
+
+li {
+  display: inline;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.8rem;
+  border-radius: 0.2rem;
+  background-color: lightgrey;
+  line-height: 2.6;
+}
+
+.skills {
+
+  .skillsTitle {
+    font-size: 18pt;
+    margin-bottom: 10px;
+  }
+
+  .skillsCard {
+    padding: 1rem;
+    border: 1px solid rgb(180, 180, 180);
+    margin-bottom: 20px;
+
+    .skillCat {
+      font-size: 15pt;
+    }
+
+    .skillSet {
+      .tag-list {
+        list-style: none;
+        padding: 0rem;
+        font-family: 'Prompt', sans-serif;
       }
 
-      >img {
-        border-radius: 50%;
-        width: 78px;
-        /* border: 1px solid red; */
+      .tag-list>li {
+        display: inline;
+        padding: 0.3rem 0.5rem;
+        font-size: 0.8rem;
+        border-radius: 0.2rem;
+        background-color: lightgrey;
+        line-height: 2.6;
       }
-
-      margin-bottom: 20px;
     }
 
-    .intro {
-      text-align: justify;
-      margin-bottom: 20px;
+  }
+}
+
+
+.education {
+  .edTitle {
+    font-size: 18pt;
+    margin-bottom: 10px;
+  }
+
+  .edCard {
+    padding: 1rem;
+    border: 1px solid rgb(180, 180, 180);
+    margin-bottom: 20px;
+
+    .edCat {
+      font-size: 15pt;
     }
 
-    .experience {
+    .edSub {
+      font-weight: 900;
+    }
 
-      .expTitle {
-        font-size: 18pt;
+    .edDate {
+      font-size: 10pt;
+      margin-bottom: 10px;
+    }
+
+    .edHiTitle {
+      font-size: 13pt;
+      margin-bottom: 5px;
+    }
+
+    .edHighlights {
+
+      visibility: hidden;
+      height: 0;
+
+      .highlight {
+        border-top: 1px solid gray;
         margin-bottom: 10px;
-      }
 
-      .expCard {
-        padding: 1rem;
-        border: 1px solid rgb(180, 180, 180);
-        -webkit-border:1px solid rgb(180, 180, 180);
-        margin-bottom: 20px;
-
-        .companyName {
-          font-size: 15pt;
-        }
-
-        .subheading {
-          font-size: 10pt;
-        }
-
-        .briefIntro {
-          text-align: justify;
-          font-weight: bold;
-        }
-
-        .pr {
-          text-align: justify;
-        }
-      }
-    }
-
-    .tag-list {
-      list-style: none;
-      padding: 0rem;
-      font-family: 'Prompt', sans-serif;
-    }
-
-    li {
-      display: inline;
-      padding: 0.3rem 0.5rem;
-      font-size: 0.8rem;
-      border-radius: 0.2rem;
-      background-color: lightgrey;
-      line-height: 2.6;
-    }
-
-    .skills {
-
-      .skillsTitle {
-        font-size: 18pt;
-        margin-bottom: 10px;
-      }
-
-      .skillsCard {
-        padding: 1rem;
-        border: 1px solid rgb(180, 180, 180);
-        margin-bottom: 20px;
-
-        .skillCat {
-          font-size: 15pt;
-        }
-
-        .skillSet {
-          .tag-list {
-            list-style: none;
-            padding: 0rem;
-            font-family: 'Prompt', sans-serif;
-          }
-
-          .tag-list>li {
-            display: inline;
-            padding: 0.3rem 0.5rem;
-            font-size: 0.8rem;
-            border-radius: 0.2rem;
-            background-color: lightgrey;
-            line-height: 2.6;
-          }
-        }
-
-      }
-    }
-
-
-    .education {
-      .edTitle {
-        font-size: 18pt;
-        margin-bottom: 10px;
-      }
-
-      .edCard {
-        padding: 1rem;
-        border: 1px solid rgb(180, 180, 180);
-        margin-bottom: 20px;
-
-        .edCat {
-          font-size: 15pt;
-        }
-
-        .edSub {
-          font-weight: 900;
-        }
-
-        .edDate {
-          font-size: 10pt;
-          margin-bottom: 10px;
-        }
-
-        .edHiTitle {
-          font-size: 13pt;
+        >div {
           margin-bottom: 5px;
         }
-
-        .edHighlights {
-
-          visibility: hidden;
-          height: 0;
-
-          .highlight {
-            border-top: 1px solid gray;
-            margin-bottom: 10px;
-
-            >div {
-              margin-bottom: 5px;
-            }
-          }
-
-        }
       }
-    }
 
-    .socials {
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-end;
-      column-gap: 10px;
-
-      >a {
-        color: black;
-        text-decoration: none;
-      }
     }
+  }
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  column-gap: 10px;
+
+  >a {
+    color: black;
+    text-decoration: none;
+  }
+}
