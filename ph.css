@@ -1,4 +1,4 @@
-    body {
+body {
       margin-left: auto;
       margin-right: auto;
       max-width: 860px;
@@ -53,25 +53,11 @@
       .expCard {
         padding: 1rem;
         border: 1px solid rgb(180, 180, 180);
+        -webkit-border:1px solid rgb(180, 180, 180);
         margin-bottom: 20px;
 
         .companyName {
           font-size: 15pt;
-        }
-
-        .tag-list {
-          list-style: none;
-          padding: 0rem;
-          font-family: 'Prompt', sans-serif;
-        }
-
-        .tag-list>li {
-          display: inline;
-          padding: 0.3rem 0.5rem;
-          font-size: 0.8rem;
-          border-radius: 0.2rem;
-          background-color: lightgrey;
-          line-height: 2.6;
         }
 
         .subheading {
@@ -87,6 +73,21 @@
           text-align: justify;
         }
       }
+    }
+
+    .tag-list {
+      list-style: none;
+      padding: 0rem;
+      font-family: 'Prompt', sans-serif;
+    }
+
+    li {
+      display: inline;
+      padding: 0.3rem 0.5rem;
+      font-size: 0.8rem;
+      border-radius: 0.2rem;
+      background-color: lightgrey;
+      line-height: 2.6;
     }
 
     .skills {
